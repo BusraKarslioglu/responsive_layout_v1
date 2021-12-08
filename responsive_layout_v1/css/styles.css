@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.main-nav {
+   max-width: 95%;
+   align-self: center;
+   margin: 0 auto;
+   background-color: whitesmoke;
+padding-bottom: 10px;
+}
+
+body {
+    text-align: center;
+    margin: auto;
+}
+.home {display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: white;}
+
+.portfolio {display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: white;}
+
+.contact {display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: white;}  
+    
+ .image {
+    max-width: 95%;
+    
+  }
+
+  .image-1 {
+      border-style: hidden;
+      max-width: 100%;
+      margin: auto;
+  }
+footer {
+    background-color: whitesmoke;
+    padding:10px;
+}
+.buttom {
+    display: flex;
+    flex-direction:row; 
+    flex-wrap: wrap;
+    justify-content: space-between;  
+    border-top: solid #8f8d8c;
+    padding: 10px 15px;
+    
+} 
+@media screen (min-width: 320px), (max-width:1024px) {
+
+         header {
+        width:100%;
+        height: auto;
+        
+    }
+
+    body {
+        width: 100%
+        height: auto;
+
+    }
+    .image {
+        max-width: 100%;
+        display: block;
+      }
+      .image-1 {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+  footer {
+      background-color: whitesmoke;
+      padding:10px;
+  }
+  .buttom {
+      display: flex;
+      flex-direction:row; 
+      flex-wrap: wrap;
+      justify-content: space-between;  
+      border-top: solid #8f8d8c;
+      padding: 10px 15px;
+}
+.main-nav {
+    max-width: 95%;
+    align-self: center;
+    margin: 0 auto;
+    background-color: whitesmoke;
+  
+}
+
+body {
+    text-align: center;
+    margin: auto;
+}
+.home {display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: white;}
+
+.portfolio {display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: white;}
+
+.contact {display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: white;}  
+    
+ 
