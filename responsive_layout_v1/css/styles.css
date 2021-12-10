@@ -179,5 +179,23 @@ p {
     color:rgb(148, 148, 148);
 }
 @media only screen and (min-width: 1024px) {
+.nav { display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav, .home, .portfolio, .contact li{
+    width: initial;
+    margin-bottom: 0;
+  }
 
+  .port-1, .port-2, .port-3, .port-4, .port-5, .port-6 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 33.333%;
+    text-align: center; 
+    justify-content: center;
+    padding: auto;}
+   
+    
+}
    
